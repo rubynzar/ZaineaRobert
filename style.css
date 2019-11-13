@@ -1,0 +1,125 @@
+
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+.topnav img {
+  width: 200px;
+}
+
+.topnav a {
+  float: right;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e9f542;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f5d142;
+  color: black;
+}
+
+.topimage img {
+  width: 100%;
+}
+.about {
+  columns: 2 200px;
+  margin: 0 90px 30px 90px;
+  column-gap: 50px;
+  font-size: 16px;
+}
+
+h1,h3,form,button{
+  text-align: center;
+}
+.gallery img {
+  width: 32.5%;
+  height:45%;
+}
+
+form input {
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border-color: yellow;
+  margin-top: 10px;
+}
+button:hover {
+  background-color:yellow;
+}
+
+.rules {
+  columns: 3 300px;
+  margin: 50px 20px 0px 90px;
+  text-align: justify center;
+}
+.rules img {
+  margin-left: 100px;
+}
+
+#sportmaster {
+  width: 130px;
+  height: 100px;
+}
+#kommune,#danskebank {
+  width: 200px;
+}
+
+.footersponsors img {
+  width: 50%;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.myfooter {
+  background-color: black;
+}
+
+.footercontact {
+  columns: 4 150px;
+  margin: 20px;
+  text-align: justify center;
+}
+.footercontact p {
+  color: white;
+}
+#signup {
+  background-color:yellow;
+}
+.allsignup img {
+  width: 1100px;
+}
+.allsignup{
+  columns: 2 400px;
+  margin:20px;
+  text-align: justify center;
+}
+@media screen and (max-width: 972px) and (min-width: 100px)  {
+  .gallery img{
+    width: 100%;
+  }
+  .rules {
+    column-count:1;
+  }
+  .footersponsors img {
+    width: 100%;
+  }
+  .footercontact {
+    column-count: 1;
+  }
+
+}
